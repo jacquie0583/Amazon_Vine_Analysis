@@ -63,7 +63,9 @@ In this project, we had access to approximately 50 datasets. Each one contains r
  match what is in the AWS RDS database. A DataFrame was designed to match the active_user table.  Once our data has
  been transformed to fit the tables in our database, we're ready to move on to the "Load" step.
      
- Load The final step is to get our transformed raw data into our database. PySpark can easily connect to a database
+ ###  Load
+ 
+ The final step is to get our transformed raw data into our database. PySpark can easily connect to a database
  to load the DataFrames into the table. First, we configured settings for RDS to allow the connection with AWS server
  and PgAdmin. We'll append to the current table because every time we run this ETL process, we'll want more data added
  to our database without removing any.  The cleaned DataFrames can then be written directly to our database by using
@@ -108,7 +110,7 @@ The review_id_table DataFrame was organized using the select() function to selec
 The vine_table DataFrame was also created using the select() function to select only the columns that are in the vine_table in pgAdmin.
 The final vine_table DataFrame follows:
 
-Image 4<p align="center">
+<p align="center">
    <img width="600" height="600" src="https://github.com/jacquie0583/Amazon_Vine_Analysis/blob/main/Image%204%20Vine%20T.jpg">
 </p>
 
@@ -136,7 +138,7 @@ The 5-star non-Vine participants dominate the review percentage at 99.60 % as ap
 
 ##  Percentage of were Vine reviews were 5-star and non-Vines
 The results show that 5-star reviews from Vine members is 41.62% and the 5-star reviews from non-Vine members was 53.02%. The Non-vine reviews has a 11 % higher percentage of the 5-star reviews, this does represent significant difference..
-https://github.com/jacquie0583/Amazon_Vine_Analysis/blob/main/Chart%203.jpg
+
 <p align="center">
    <img width="400" height="200" src="https://github.com/jacquie0583/Amazon_Vine_Analysis/blob/main/Chart%203.jpg">
 </p>
