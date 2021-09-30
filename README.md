@@ -136,7 +136,8 @@ The 5-star non-Vine participants dominate the review percentage at 99.60 % as ap
    <img width="400" height="200" src="https://github.com/jacquie0583/Amazon_Vine_Analysis/blob/main/Chart%202.jpg">
 </p>
 
-##  Percentage of were Vine reviews were 5-star and non-Vines
+## 
+Summary of 5-star reviews: Vine and non-Vines
 The results show that 5-star reviews from Vine members is 41.62% and the 5-star reviews from non-Vine members was 53.02%. The Non-vine reviews has a 11 % higher percentage of the 5-star reviews, this does represent significant difference..
 
 <p align="center">
